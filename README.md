@@ -8,3 +8,7 @@
 ### 2- HW2- Adult Income
 #### Supervised Classification problem
 #### dataset: adult_income.csv
+
+### 2- HW3- Customer Segmentation
+#### Unsupervised clustering problem
+#### dataset: Wholesale customers data.csv
