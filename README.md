@@ -36,15 +36,20 @@ This dataset contains information about customers' annual spending on various pr
 
 
 ## 4- HW4- Deep Neural Networks
-### Part 1- Unsupervised clustering problem, dataset: Wholesale customers data.csv
-### Part 2- 
+### Part 1- Customer Churn Prediction, dataset: Churn_Modelling.csv
+### Part 2- Concrete Surface Crack Detection, dataset: 40k images with size 227x227 can be downloaded from web
 
-Churn data:
+#### Part 1 Details:
+#### This is the dataset of the customers in a company. Our goal is to predict whether a customer will exit the company regarding a set of measured features.
 
-This is the dataset of the customers in a company. Our goal is to predict whether a customer will exit the company regarding a set of measured features.
+#### Task 1: clean and process the data
+#### Task 2: construct and train a fully connected Neural Network for predicting the customer churn and optimize it
+#### Task 3: calculate the performance measures and analyze the results
 
-Task 1: clean and process the data
+#### Part 2 Details:
+#### The datasets contain images of various concrete surfaces with and without crack. The image data is divided into two as negative (without crack) and positive (with crack) in a separate folder for image classification. Each class has 20000 images with a total of 40000 images with 227 x 227 pixels with RGB channels. The dataset is generated from 458 high-resolution images (4032x3024 pixel) with the method proposed by Zhang et al (2016). High resolution images found out to have high variance in terms of surface finish and illumination condition. No data augmentation in terms of random rotation or flipping or tilting is applied. Our goal is to detect if a picture is showing a surface crack or not.
 
-Task 2: construct and train a fully connected Neural Network for predicting the customer churn and optimize it
-
-Task 3: calculate the performance measures and analyze the results
+#### Task 1: preprocess the images(channel normalization)
+#### Task 2: construct and train a convolutional neural network for detecting the surface cracks and optimize it.
+#### Task 4: calculate the performance measures and analyze the results.
+*Bonus Task: use data augmentation (rotation, flipping, tilting and etc) to enhance the network's performance.
